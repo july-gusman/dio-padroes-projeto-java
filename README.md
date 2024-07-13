@@ -11,12 +11,12 @@ gerais e reutilizáveis ​​para problemas comuns que surgem durante o design 
 Eles representam as melhores práticas para resolver certos tipos de problemas e 
 fornecem uma maneira para os desenvolvedores se comunicarem sobre soluções de design eficazes.
 
-##Método de Singleton:
+## Método de Singleton:
 
 O Método Singleton é um padrão de design criacional que fornece a uma classe apenas uma instância,
 e essa instância fornece um ponto global de acesso a ela.
 
-###Método de Strategy:
+## Método de Strategy:
 
 O Método de Estratégia é um Padrão de Design Comportamental que define uma família de algoritmos, 
 encapsula cada um deles e os torna intercambiáveis, além de permitir que um cliente escolha um algoritmo apropriado
