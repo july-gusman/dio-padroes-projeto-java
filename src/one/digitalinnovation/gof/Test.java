@@ -3,9 +3,7 @@ package one.digitalinnovation.gof;
 import one.digitalinnovation.gof.singleton.SingletonEager;
 import one.digitalinnovation.gof.singleton.SingletonLazy;
 import one.digitalinnovation.gof.singleton.SingletonLazyHolder;
-import one.digitalinnovation.gof.strategy2.*;
-
-import java.util.concurrent.atomic.AtomicReference;
+import one.digitalinnovation.gof.strategy.*;
 
 
 public class Test {
@@ -29,7 +27,7 @@ public class Test {
         System.out.println(lazyHolder);
 
 
-        //Strategy2
+        //Strategy
 
         Emocao alegre = new EmocaoAlegre();
         Emocao descontente = new EmocaoDescontente();
